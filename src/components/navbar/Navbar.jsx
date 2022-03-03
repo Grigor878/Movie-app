@@ -7,7 +7,7 @@ import tvIcon from '../../assets/icons/tv.png';
 import movieIcon from '../../assets/icons/movie.png';
 import genresIcon from '../../assets/icons/genres.png';
 import laterIcon from '../../assets/icons/later.png';
-import user from '../../assets/user.png'
+import user from '../../assets/icons/user.png'
 
 function Navbar() {
     return (
@@ -52,7 +52,7 @@ function Navbar() {
                     exact>
                     <img src={tvIcon} alt="menu-icon" />
                     <p className="nav-p " >
-                        TV Shows
+                       Shows
                     </p>
                 </NavLink>
 
@@ -95,14 +95,14 @@ function Navbar() {
                     exact>
                     <img src={laterIcon} alt="menu-icon" />
                     <p className="nav-p ">
-                        Watch Later
+                        Later
                     </p>
                 </NavLink>
             </div>
 
             <div className='nav_links'>
                 <Link className='link' to="/">Language</Link>
-                <Link className='link' to="/">Get Help</Link>
+                <Link className='link' to="/">Help</Link>
                 <Link className='link' to="/">Exit</Link>
             </div>
         </nav>
